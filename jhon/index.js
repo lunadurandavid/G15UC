@@ -10,3 +10,5 @@ console.log(resta(numero1, numero2));
 console.log(multiplicacion(numero1, numero2));
 console.log(division(numero1, numero2));
 console.log("cambio");
+
+console.log("cambio desde el remoto");
