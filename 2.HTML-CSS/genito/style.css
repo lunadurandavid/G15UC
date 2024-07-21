@@ -1,33 +1,117 @@
-/* styles.css */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: #f5f5f5;
 }
 
 .container {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.login-section, .info-section {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-section {
+    background: #4A90E2;
+    color: #fff;
+}
+
+.info-section {
+    position: relative;
+    background: url('https://images.pexels.com/photos/733856/pexels-photo-733856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
+    background-size: cover;
+    color: #fff;
     text-align: center;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    transition: transform 0.3s ease-in-out;
 }
 
-.container:hover {
-    transform: translateY(-5px) rotate(-2deg);
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
 
-h1 {
-    color: #333;
-    transition: color 0.3s ease-in-out;
+h2 {
+    margin: 0 0 1.5rem 0;
+    font-size: 2rem;
 }
 
-.container:hover h1 {
-    color: #ff4500; /* Cambia el color al pasar el mouse */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #4A90E2;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+.register-btn {
+    background: #ff5722;
+    color: #fff;
+}
+
+.register-btn:hover {
+    background: #e64a19;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
