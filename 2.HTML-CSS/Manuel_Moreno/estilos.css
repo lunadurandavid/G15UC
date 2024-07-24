@@ -1,0 +1,108 @@
+* {
+
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dde5f4;
+}
+
+.CONTAINER {
+    background: #f1f7fe;
+    padding: 30px;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px #e6e9f9;
+    margin-top: 40px;
+    padding-top: 30px;
+
+
+}
+
+input {
+    width: calc(100% - 30px);
+    /* Width minus space for icon and padding */
+    border: none;
+    margin-right: 10px;
+    /* Espacio entre el input y el icono */
+}
+
+
+.background-image {
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    opacity: 0.8;
+}
+
+form {
+    max-width: 270px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: #3e4684;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+
+
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.CONTAINER .email,
+.CONTAINER .password {
+    background: white;
+    border-radius: 10px;
+    gap: 0.7em;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+
+.InputImagen,
+.ayudas {
+    display: flex;
+
+}
+
+.labelForm {
+    text-align: left;
+}
+
+.ayudas {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #888;
+    font-size: 0.8em;
+}
+
+#Signup {
+    padding-right: 100px
+}
