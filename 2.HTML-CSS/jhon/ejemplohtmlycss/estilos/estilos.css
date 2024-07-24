@@ -1,0 +1,132 @@
+/*hojas de estilos*/
+/*colores, tama;os margenes, rellenos, imagenes y propiedades de elmentos*/
+
+#container{
+  margin: 1px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  
+}
+
+#container #form-zone{
+ display: block;
+ width: 60%;
+ flex-direction: column;
+ height: inherit;
+ align-items: center;
+ background: #fff ;
+}
+
+#container #sign-up{
+background:  #38B298;
+width: 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+
+#container #sign-up .content{
+  width: 100%;
+  display: flex;
+  max-width: 200px;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#container #sign-up .content h3{
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#container #sign-up .content p {
+  color: #fff;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#container #sign-up .content input {
+  text-align: center;
+  color: #000;
+  font-weight: 300;
+}
+
+#form-zone h1 {
+  color: #000;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+#form-zone p {
+  color: #666;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 1%;
+  text-transform: lowercase;
+}
+
+#container #form-zone form{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#social-net{
+  display: flex;
+
+}
+
+#social-net i{
+  font-size: 15px;
+  margin: 3px;
+}
+
+#social-net a {
+  color: #fff;
+  padding: 5px;
+  background: #47546D;
+  margin: 5px;
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+#social-net a:nth-child(2){
+  background: #DF4C3A;
+}
+ 
+hr{
+  border: 1px solid #f2f2f2;
+  width: 100%;
+  max-width: 200px;
+}
+
+ input{
+  border: none;
+  background: #EFF6F3;
+  padding: 10px;
+  border-radius: 30px;
+  outline: none;
+  width: 100%;
+  max-width: 270px;
+ }
+
+ input[type="submit"]{
+  color: #fff;
+  background: #29B498;
+  width: 100%;
+  max-width: 150px;
+ }

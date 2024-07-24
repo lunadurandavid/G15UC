@@ -1,0 +1,60 @@
+/* selectores de tipo */
+p{
+  color: blue; 
+}
+
+/*selector de clase*/
+.parrafo-rojo{
+  color: red;
+  font-size: 20px;
+}
+
+/*selectores de identificador*/
+#parrafo-verde{
+    color: #e7aaaa;
+        font-size: 20px;
+        background: red;
+        text-align: center;
+        text-shadow: 2px 0px black;
+        padding: 10px;
+}
+/* selectores universales  */
+*{
+  margin: 10px;
+  padding: 3px;
+}
+
+/*selectores de atributos o propiedad*/
+input[type="text"]{
+  background: #999;
+}
+input[type="password"]{
+  background: #333;
+}
+/* selectores descendentes */
+.parrafo-rojo strong{
+  color:#e7aaaa
+}
+
+.parrafo-rojo strong i{
+  color: rgb(108, 203, 0);
+}
+
+/*selectores de hijo*/
+
+ul > li{
+  color: rgb(16, 21, 164);
+}
+
+/*pseudo clases, verifica un estado del elemento, estan orientados a eventos */
+p:hover{
+  background-color: black;
+  color: white;
+}
+
+/*pseudo elementos. incluye atributos adicionales al elemento*/
+
+button::after{
+ content: " --> ";
+ color: red;
+}
