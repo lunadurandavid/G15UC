@@ -13,7 +13,7 @@ html {
     background-color: #dde5f4;
 }
 
-.CONTAINER {
+.container {
     background: #f1f7fe;
     padding: 30px;
     text-align: center;
@@ -73,8 +73,8 @@ form button:hover {
     background-color: #0056b3;
 }
 
-.CONTAINER .email,
-.CONTAINER .password {
+.container .email,
+.container .password {
     background: white;
     border-radius: 10px;
     gap: 0.7em;
@@ -103,6 +103,6 @@ form button:hover {
     font-size: 0.8em;
 }
 
-#Signup {
+#signup {
     padding-right: 100px
 }
