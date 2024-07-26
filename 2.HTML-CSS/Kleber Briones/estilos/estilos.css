@@ -31,7 +31,7 @@ body{
     height: 100%;
 }
 
-#container #sbienvenida .content{
+#container #bienvenida .content{
     width: 100%;
     display: flex;
     max-width: 200px;
@@ -95,9 +95,10 @@ body{
 }
 
 hr{
-    border: 1px solid #f2f2f2;
-    width: 100%;
-    max-width: 200px;
+    border: 1px solid #af6ac9;
+    margin: 25px;
+    width: 500px;
+    max-width: 1000px;
   }
 
 #bienvenida h1{
