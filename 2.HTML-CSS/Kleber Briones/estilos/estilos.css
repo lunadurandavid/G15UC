@@ -141,13 +141,13 @@ input{
    
 }
 
-input[type="submit"]{
+/*input[type="submit"]{
     color: #fff;
     background:#701f8e;
     border-radius: 50px;
     width: 100%;
     max-width: 150px;
-   }
+   }*/
 
 input::placeholder{
     border: none;
@@ -158,4 +158,13 @@ input::placeholder{
     outline: none;
     width: 100%;
     max-width: 270px;
+}
+
+#container .btn{
+    background: #701f8e;
+    border: none;   
+}
+
+#container .btn:hover{
+    background-color: #af6ac9;
 }
