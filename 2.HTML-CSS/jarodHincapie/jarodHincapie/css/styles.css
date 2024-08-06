@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+#container{
+    margin: 1px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+
+#container #form-zone{
+    display: block;
+    width: 60%;
+    margin: auto;
+    height: inherit;
+    background: #fff;
+
+}
+
+#container #sign-up{
+    background: #38b298;
+    width: 40%;
+
+}
+
+#form-zone h1{
+    color: #000;
+    font-size: 5rem;/* Cambiar tamaño*/
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+
+}
+
+#form-zone p{
+    color: #666;
+    font-size: 1rem;/* Cambiar tamaño*/
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 3%;
+    text-transform: lowercase;
+
+}
+
